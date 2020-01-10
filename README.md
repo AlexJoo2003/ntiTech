@@ -12,6 +12,24 @@
     - picture
     - link
     - short description
-  - ...
+  - Interactive Background
+    - hovering over an article will show a preview of it
+    - *paralax effect*
+  - Make adding articles automatic
+  - Advice for students
+    - Links to usefull pages like:
+      - [w3schools.com](https://www.w3schools.com/)
+      - [coolors.co](https://coolors.co/app)
+      - [GitHub](https://github.com/)
+      - and so on ...
+  - *Easter eggs*
 ---
-[checkbox:unchecked]
+## Plan
+- [x] start project:
+  - [x] Create *index.html*
+  - [x] Create *style.css*
+  - [x] Create *script.js*
+- [ ] make passive interactive background with paralax
+- [ ] make wellcoming div
+- [ ] 
+- [ ] 
