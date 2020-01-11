@@ -1,0 +1,59 @@
+@keyframes img-ani{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes moveUp{
+    100%{
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.pos{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110vw;
+    height: 110vh;
+    transition-timing-function: ease-in-out;
+}
+.layer1{
+    background: url(../../images/layer_1.png)
+    center center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    transform: translate3d(0, -1000px, 0);
+    opacity: 0;
+    animation: moveUp 3s ease-out;
+    animation-fill-mode: forwards;
+}
+.layer2{
+    background: url(../../images/layer_2.png)
+    center center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    transform: translate3d(0, -1000px, 0);
+    opacity: 0;
+    animation: moveUp 3.1s ease-out;
+    animation-fill-mode: forwards;
+}
+.layer3{
+    background: url(../../images/layer_3.png)
+    center center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    transform: translate3d(0, -1000px, 0);
+    opacity: 0;
+    animation: moveUp 3.2s ease-out;
+    animation-fill-mode: forwards;
+}
+#logo{
+    width: 90vw;
+    margin-left: 50px;
+    display: none;
+}

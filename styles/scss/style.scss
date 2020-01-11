@@ -1,0 +1,35 @@
+$main-dark: #4E0082;
+$main-light: #A9058B;
+$light: #fff;
+$dark: #222;
+$link: #FA8334;
+
+html {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+html::-webkit-scrollbar {
+    width: 0px; /* For Chrome, Safari, and Opera */
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden; //horizontal
+}
+
+header{
+    height: 100vh;
+}
+header center{
+    position: absolute;
+    top: 90vh;
+    left: 50vw;
+}
+
+#air{
+    height: 1000vh;
+}

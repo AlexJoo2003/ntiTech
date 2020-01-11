@@ -1,0 +1,10 @@
+.arrow{
+    width: 50px;
+    height: 50px;
+    filter: invert(100%);
+    position: absolute;
+    top: 100vh;
+    opacity: 0;
+    display: block;
+    left: calc(50vw - 50px);
+}
